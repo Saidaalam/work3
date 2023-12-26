@@ -1,0 +1,133 @@
+@media (max-width: 767px) {
+    .h1,h1 {
+        font-size:30px
+    }
+  
+    .h2,h2 {
+        font-size: 26px
+    }
+  
+    .h3,h3 {
+        font-size: 22px
+    }
+  
+    .h4,h4 {
+        font-size: 20px
+    }
+  
+    .h5,h5 {
+        font-size: 18px
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .h1,h1 {
+        font-size:36px
+    }
+  
+    .h2,h2 {
+        font-size: 30px
+    }
+  
+    .h3,h3 {
+        font-size: 26px
+    }
+  
+    .h4,h4 {
+        font-size: 22px
+    }
+  }
+
+  @media (max-width: 575px) {
+    .as-pagination .prev,.as-pagination .next {
+        padding:0 10px
+    }
+  }
+
+  
+@media (max-width: 1199px) {
+    .product-about .actions .as-btn {
+        min-width:170px
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .product-details .border-title {
+        font-size:24px
+    }
+  
+    .product-details-img {
+        margin-bottom: 10px
+    }
+  
+    .product-tab-style1 {
+        margin: 60px auto 40px auto
+    }
+  
+    .product-tab-style1 a {
+        font-size: 16px;
+        line-height: 50px;
+        height: 50px;
+        min-width: 210px;
+        padding: 0 20px
+    }
+  
+    .list_style1 .product-img {
+        width: 100%;
+        max-width: 130px
+    }
+  
+    .list_style1 .product-meta a,.list_style1 .product-meta span {
+        font-size: 14px
+    }
+  
+    .list_style1 .product-meta .price {
+        font-size: 14px
+    }
+  
+    .list_style1 .product-title {
+        font-size: 16px
+    }
+  
+    .as-sort-bar .result-showing {
+        margin-bottom: 0
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .list_style2 {
+        padding:20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+  
+    .list_style2 .product-img {
+        max-width: 100%
+    }
+  
+    .list_style2 .product-title {
+        font-size: 22px
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .list_style1 .actions .icon-btn {
+        --btn-size: 26px;
+        line-height: 28px
+    }
+  
+    .list_style1 .product-content {
+        padding: 0 0 0 15px
+    }
+  }
+
+  
+@media (max-width: 575px) {
+    .as-pagination .prev,.as-pagination .next {
+        padding:0 10px
+    }
+  }
+  

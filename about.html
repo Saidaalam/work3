@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor Project - About</title>
+    <link rel="stylesheet" href="./CSS2/venobox.min.css">
+    <link rel="stylesheet" href="./CSS2/all.min.css">
+    <link rel="stylesheet" href="./CSS2/slick.css"
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="./CSS2/bootstrap.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./CSS2/style.css">
+    <link rel="stylesheet" href="./CSS2/responsive.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR STARTS HERE-->
+    <nav class="navbar navbar-expand-lg myCustomNav d-none d-lg-block">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images2/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            aria-current="page" href="shop.html">Shop</a>
+                        <div class="dropdown">
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                              <li><a class="dropdown-item" href="shopDetails.html">Shop Details</a></li>
+                              <li><a class="dropdown-item" href="#">Compare</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Pages</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Page 1</a></li>
+                          <li><a class="dropdown-item" href="#">Page 2</a></li>
+                          <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                      </div>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Features</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                          <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                          <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                        </ul>
+                      </div>   
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Blogs</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                          <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                          <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                        </ul>
+                      </div>  
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="iconsGroup">
+                <ul>
+                    <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="cartNumber">
+                                0
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+    </nav>
+
+    <nav class="sm_navbar d-lg-none py-3">
+        <div class="container ">
+
+            <div class="row align-items-center">
+
+                <div class="menu col-2">
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                        <i class="fa-solid fa-align-left"></i>
+                    </button>
+
+
+
+                    <!-- SIDEBAR -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <a href="#"><img src="./images2/Logo.png" alt=""></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body smMenu">
+
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <!-- SIDEBAR END-->
+                </div>
+
+                <div class="logo text-center col-8">
+                    <a href="#">
+                        <img src="./images2/Logo.png" alt="">
+                    </a>
+                </div>
+
+
+                <div class="iconsGroup col-2">
+                    <ul>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span class="cartNumber">
+                                    0
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- NAVBAR ENDS HERE-->
+
+    <!-- main -->
+    <main>
+
+    <!-- Banner Section starts -->
+
+        <section id="banner">
+            
+                <div class="bannar2" style="background-image: url(./images2/breadcumb_bg_about.jpg);">
+                    <div class="container h-100">
+                        <div class="row align-items-center  h-100 w-100">
+                            <div class="banner_cnt">
+                                <h2>About Us</h2>
+                                <p>Home / About Us</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+     <!-- Banner Section Endss -->
+
+ <!-- Shop Section starts -->
+
+         <section class="shop">
+            <div class="container">
+            <div class="bg">
+                <div class="row">
+                <div class="decoration col-lg-5">
+                <img src="./images2/bannar.png">
+                </div>
+                 <div class="makeup col-lg-7">
+                    <img src="./images2/BG.png">
+                 </div> 
+                 <div class="container">
+                    <div class="text">
+                        <h2>Learn About Aetor Shop</h2>
+                        <p>Interactively underwhelm effective relationships whereas team driven paradigms. Uniquely
+                             impact impactful meta-services vis -a-vis fully tested best practices. Appropriately
+                              e-enable fully.</p>
+                              <hr class="horizon">
+                        <p><span><img src="./images2/icon.png"></span>Assertively customize robust potentialities and economical <br>
+                            <span><img src="./images2/icon.png"></span>Seamlessly disintermediate distributed intellectual capital.<br>
+                            <span><img src="./images2/icon.png"></span>Credibly enable B2C potentialities after strategic.</p>
+                        
+                        <a href="#">Shop Now <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+         </section>
+
+  <!-- Shop Section Endss -->
+ 
+    <!-- CounterUp Section Starts -->
+  
+    <div class="container">
+        <div class="counterup ">
+            <div class="row">
+                <div class="col-lg-3 counter col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="overlay">
+                        <span class="icon mb-lg-0 mb-3 col-lg-3"><i class="fa-solid fa-truck-ramp-box"></i></span>
+                    </div>
+                        <div class="counter_cnt col-lg-8">
+                            <h2 class="count">52.3</h2><span class="k">K</span>
+                            <p>Products for sale</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 counter col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="overlay">
+                        <span class="icon mb-lg-0 mb-3 col-lg-3"><i class="fa-solid fa-shop"></i></span> 
+                    </div>
+                        <div class="counter_cnt col-lg-8">
+                            <h2 class="count">43.6</h2><span class="k">K</span>
+                            <p>Sellers active on shop</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 counter col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="overlay">
+                        <span class="icon mb-lg-0 mb-3 col-lg-3"><i class="fa-solid fa-briefcase"></i></span>
+                    </div>
+                        <div class="counter_cnt col-lg-8">
+                            <h2 class="count">75.9</h2><span class="k">K</span>
+                            <p>Customer active on store</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 counter col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="overlay">
+                        <span class="icon mb-lg-0 mb-3 col-lg-3"><i class="fa-solid fa-dollar-sign"></i></span>
+                    </div>
+                        <div class="counter_cnt col-lg-8">
+                            <h2 class="count">35.5</h2><span class="k">K</span>
+                            <p>Annual gross sales</p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+    
+  <!-- CounterUo Section Endss -->
+
+<!-- VIDEO SECTION -->
+
+<section id="special_video">
+            <div class="container">
+                <div class="background">
+            <div class="spoffer col-lg-6">
+                <h2>Our Story</h2>
+                <p>Synergistically pontificate focused services whereas intuitive leadership. Competently predominate 
+                    ubiquitous services rather than client-centric scenarios. Distinctively mesh B2C benefits for 
+                    superior customer service. Interactively e-enable inexpensive total linkage without quality 
+                    materials. Phosfluorescently negotiate.</p>
+                <p>Professionally exploit user-centric technology for seamless solutions. Objectively morph unique 
+                    strategic theme areas without cross functional mindshare. Synergistically <br> aggregate adaptive
+                     functionalities rather than enterprise-wide experiences. Completely maintain.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="video">
+
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/GogcDtMpgMc">
+                    <img src="./images2/our_story.jpg" alt="">
+                    <div class="overlay">
+                        <span><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+
+<!-- VIDEO SECTION ENDS -->
+
+ <!-- PreFooter Section Starts -->  
+
+<div class="container">
+    <div class="prefooter ">
+        <div class="row">
+            <div class="col-lg-3 footerService col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                <div class="row">
+                    <div class="icon mb-lg-0 mb-3 col-lg-3">
+                        <img src="./images2/prefooter1.png" alt="">
+                    </div>
+                    <div class="content col-lg-8">
+                        <h4>FREE SHIPING</h4>
+                        <p>all orders over $150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 footerService col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                <div class="row">
+                    <div class="icon mb-lg-0 mb-3 col-lg-3">
+                        <img src="./images2/prefooter2.png" alt="">
+                    </div>
+                    <div class="content col-lg-8">
+                        <h4>QUICK PAYMENT</h4>
+                        <p>100% secure payment</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-3 footerService col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                <div class="row">
+                    <div class="icon mb-lg-0 mb-3 col-lg-3">
+                        <img src="./images2/prefooter3.png" alt="">
+                    </div>
+                    <div class="content col-lg-8">
+                        <h4>FREE RETURNS</h4>
+                        <p>Return within 30 days</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-lg-3 footerService col-sm-6 text-center text-lg-start mb-4 mb-lg-0">
+                <div class="row">
+                    <div class="icon mb-lg-0 mb-3 col-lg-3">
+                        <img src="./images2/prefooter4.png" alt="">
+                    </div>
+                    <div class="content col-lg-8">
+                        <h4>24/7 SUPPORT</h4>
+                        <p>Quick Support</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- PreFooter Section Endss --> 
+ 
+  <!-- Leadership_Team Section Starts -->   
+   <div class="contain">
+    <div class="container">
+     <h2 id="leader">Leadership Expart Team</h2>
+      <div class="row">
+        <div class="leaderSlider">
+            <div class="leaderSlide col-lg-3">
+                <div class="leaderImg">
+                    <img src="./images2/team_1.jpg" alt="">
+                </div>
+                <div class="leaderContent">
+                    <h2>Michel Richard</h2>
+                    <p>Founder</p>
+                    <ul class="socialmedia">
+                        <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leaderSlide col-lg-3">
+                <div class="leaderImg">
+                    <img src="./images2/team_2.jpg" alt="">
+                </div>
+                <div class="leaderContent">
+                    <h2>Imon Hossain</h2>
+                    <p>Founder</p>
+                    <ul class="socialmedia">
+                        <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leaderSlide col-lg-3">
+                <div class="leaderImg">
+                    <img src="./images2/team_3.jpg" alt="">
+                </div>
+                <div class="leaderContent">
+                    <h2>Sudjida Lufz</h2>
+                    <p>Founder</p>
+                    <ul class="socialmedia">
+                        <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leaderSlide col-lg-3">
+                <div class="leaderImg">
+                    <img src="./images2/team_4.jpg" alt="">
+                </div>
+                <div class="leaderContent">
+                    <h2>Henry Josep</h2>
+                    <p>Founder</p>
+                    <ul class="socialmedia">
+                        <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+   <!-- Leadership_Team Section Ends --> 
+
+   <!-- Background Section Starts --> 
+
+<section id="social_img">
+    <div class="container">
+    <div class="photo">
+        <img src="./images2/bgpic.png">
+    </div>
+    </div>
+    <div id="Shape">
+    <div class="center">
+     <img src="./images2/icon2.png">
+     <img src="./images2/Shape.png">
+     <img class="lastpic" src="./images2/avater_1.jpg">
+     <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. <br> Appropriately productize 
+        next-generation infomediaries without interoperable e- <br> business. Progressively empower.</p>
+        <a href="#">Customer</a>
+    </div>
+
+    <div class="center">
+        <img src="./images2/icon2.png">
+        <img src="./images2/Shape.png">
+        <img class="lastpic" src="./images2/avater_2.jpg">
+        <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. <br> Appropriately productize 
+           next-generation infomediaries without interoperable e- <br> business. Progressively empower.</p>
+           <a href="#">Customer</a>
+       </div>
+
+       <div class="center">
+        <img src="./images2/icon2.png">
+        <img src="./images2/Shape.png">
+        <img class="lastpic" src="./images2/avater_5.jpg">
+        <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. <br> Appropriately productize 
+           next-generation infomediaries without interoperable e- <br> business. Progressively empower.</p>
+           <a href="#">Customer</a>
+       </div>
+            </div>
+</section>
+
+   <!-- Background Section Endss --> 
+   
+     <!-- Instragram Section Starts --> 
+ <section id ="instra">
+     <div class="container">
+        <h2>@Aetor Instagram</h2>
+        <div class="row">
+        <div id="latest">
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_1.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                       <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_2.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_3.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_4.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_5.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_6.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_7.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                        <a><i class="fa-brands fa-instagram"></i></a>
+                         </div>
+                        </div>
+            <div class="late col-lg-2">
+                    <img src="./images2/insta_8.jpg" alt="">
+                    <div class="overlay row justify-content-center align-items-center mx-0">
+                         <a><i class="fa-brands fa-instagram"></i></a>
+                          </div>
+                         </div>
+        </div>
+        </div> 
+        </div>
+ </section>
+
+       <!-- Instragram Section Endss --> 
+
+    <!-- Footer Section Starts -->      
+
+                <footer>
+                    <div class="container">
+                        <div class="middle_footer">
+                            <div class="row">
+                               <div class="socialMedia col-lg-3">
+                                <ul>
+                                    <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                </ul>
+                               </div>
+                              <div class="secondLogo col-lg-6">
+                                <img src="./images2/Logo.png">
+                                <img class="ytor" src="./images2/ytor.png">
+                              </div>
+                              <div class="bank-cards col-lg-3">
+                                <img src="./images2/cards.png">
+                              </div>
+                              </div>
+                        </div>
+                    
+                     <hr class="horizontalLine">   
+                     <div id="informations">
+                        <div class="row">
+                        <div class="myAccount col-lg-2"> 
+                            <h2>My Account</h2>
+                            <ul>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">My Account</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">View Cart</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Wishlist</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Compare</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">New Products</a></li>
+                            </ul>
+                        </div>
+            
+                        <div class="support col-lg-2">
+                            <h2>Support</h2>
+                            <ul>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Help</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Contact Us</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Feedback</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Customer Service</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Store Location</a></li>
+                            </ul>
+                        </div>
+                 
+                        <div class="openTime col-lg-2">
+                            <h2>Opening Time</h2>
+                            <div class="open">
+                            <div class="day col-lg-6">
+                                <ul>
+                               <li>Mon - Tue: </li>
+                               <li>Wed: </li>
+                               <li>Fri: </li>
+                               <li>Fri: </li>
+                               <li>Sun: </li>
+                            </ul>
+                            </div>
+                            <div class="time col-lg-6">
+                                <ul>
+                                <li>8AM - 10PM</li>
+                                <li>8AM - 7PM</li>
+                                <li>8AM - 12PM</li>
+                                <li>8AM - 12PM</li>
+                                <li>Closed</li>
+                            </ul>
+                        </div>
+                            </div>
+                     </div>
+            
+            <div class="contact col-lg-3">
+                <h2>Contact Us</h2>
+                <div class="contact_cnt">
+                <div class="icon col-lg-1">
+                <ul>
+                <li><span><i class="fa-solid fa-location-dot"></i></span></li>
+                <li><span><i class="fa-solid fa-phone"></i></span></li>
+                <li><span><i class="fa-solid fa-envelope"></i></span></li>
+                </ul>
+                </div>
+                <div class="paragraph" col-lg-2>
+                    <ul>
+                        <li><address><p>830 Broad way, New York, NY 10003,<br>
+                            United States</p></address></li>
+                           <li><tel<p>+18008660286</p></tel></li> 
+                           <li> <mail><p>aetor.info@gmail.com</p></mail>
+                            <mail>info@aetor.com</mail></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+            <div class="newsletter col-lg-3">
+                <h2>News Letter</h2>
+                <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Enter Your Email" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-primary">search</button>
+                  </div>
+            
+                    </div>
+                        </div>
+                     </div>
+                    </div>
+                
+                </footer>
+            
+                <div class="lastDiv">
+                    <p>© 2022 All Rights Reserved <span> Aytor </span> By <span> Angfuzsoft.</span> </p>
+                </div>       
+        
+        
+        <!-- Latest News SECTION ENDS -->
+        
+        
+            <script src="./JS2/jquery.min.js"></script>
+            <script src="./JS2/bootstrap.bundle.min.js"></script>
+            <script src="./JS2/jquery.waypoints.min.js"></script>
+            <script src="./JS2/jquery.counterup.min.js"></script>
+            <script src="./JS2/venobox.min.js"></script>
+            <script src="./JS2/slick.min.js"></script>
+            <script src="./JS2/app.js"></script>
+        </body>
+        
+        </html>

@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor Project - Shop Details</title>
+    <link rel="stylesheet" href="./CSS4/fontawesome.min.css">
+    <link rel="stylesheet" href="./CSS4/all.min.css">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="./CSS4/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS4/fontawesome.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./CSS4/style.css">
+    <link rel="stylesheet" href="./CSS4/jquery.nice-number.css">
+    <link rel="stylesheet" href="./CSS4/slick.css">
+    <link rel="stylesheet" href="./CSS4/responsive.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR STARTS HERE-->
+    <nav class="navbar navbar-expand-lg myCustomNav d-none d-lg-block">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images4/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            aria-current="page" href="shop.html">Shop</a>
+                        <div class="dropdown">
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                              <li><a class="dropdown-item" href="shopDetails.html">Shop Details</a></li>
+                              <li><a class="dropdown-item" href="#">Compare</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Pages</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Page 1</a></li>
+                          <li><a class="dropdown-item" href="#">Page 2</a></li>
+                          <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                      </div>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Features</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                          <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                          <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                        </ul>
+                      </div>   
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        aria-current="page" href="#">Blogs</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                          <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                          <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                        </ul>
+                      </div>  
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="iconsGroup">
+                <ul>
+                    <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span class="cartNumber">
+                                0
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+    </nav>
+
+    <nav class="sm_navbar d-lg-none py-3">
+        <div class="container ">
+
+            <div class="row align-items-center">
+
+                <div class="menu col-2">
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                        <i class="fa-solid fa-align-left"></i>
+                    </button>
+
+
+
+                    <!-- SIDEBAR -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <a href="#"><img src="./images4/Logo.png" alt=""></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body smMenu">
+
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <!-- SIDEBAR END-->
+                </div>
+
+                <div class="logo text-center col-8">
+                    <a href="#">
+                        <img src="./images4/Logo.png" alt="">
+                    </a>
+                </div>
+
+
+                <div class="iconsGroup col-2">
+                    <ul>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span class="cartNumber">
+                                    0
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- NAVBAR ENDS HERE-->
+
+    <!-- main -->
+    <main>
+
+    <!-- Banner Section starts -->
+
+        <section id="banner">
+            
+                <div class="bannar2" style="background-image: url(./images4/breadcumb_bg_shop_details.jpg);">
+                    <div class="container h-100">
+                        <div class="row align-items-center  h-100 w-100">
+                            <div class="banner_cnt">
+                                <h2>Shop - Details</h2>
+                                <p>Home / Shop - Details</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+     <!-- Banner Section Endss -->
+
+      <!-- Shop Section Starts -->   
+
+      <section class="product-details space-top space-extra-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="product-details-img">
+                        <div class="topSlider product-big-slide as-carousel" id="product-big-slide" data-asnavfor="#product-thumb-slide" data-slide-show="1" data-md-slide-show="1" data-fade="true">
+                            <div class="img">
+                                <img src="Images4/shop-details-1.jpg" alt="Product Image">
+                            </div>
+                            <div class="img">
+                                <img src="Images4/shop-details-2.jpg" alt="Product Image">
+                            </div>
+                            <div class="img">
+                                <img src="Images4/shop-details-3.jpg" alt="Product Image">
+                            </div>
+                            <div class="img">
+                                <img src="Images4/shop-details-4.jpg" alt="Product Image">
+                            </div>
+                            <div class="img">
+                                <img src="Images4/shop-details-5.jpg" alt="Product Image">
+                            </div>
+                            <div class="img">
+                                <img src="Images4/shop-details-6.jpg" alt="Product Image">
+                            </div>
+                        </div>
+                        <div class="bottomSlider product-thumb-slide as-carousel" id="product-thumb-slide" data-asnavfor="#product-big-slide" data-focusonselect="true" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="5" data-sm-slide-show="3" data-xs-slide-show="3" data-center-mode="true" data-xl-center-mode="true" data-ml-center-mode="true" data-md-center-mode="true" data-sm-center-mode="true" data-xs-center-mode="true">
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-1.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-2.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-3.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-4.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-5.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="thumb">
+                                    <img src="Images4/p-d-t-6.jpg" alt="Product Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-about">
+                        <h2 class="product-title">Leather Jackets</h2>
+                        <div class="product-rating">
+                            <div class="review-rating-average">5.00</div>
+                            <span id="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </div>
+                            <a href="#question" class="woocommerce-review-link">
+                                (<span class="count">3</span>
+                                Customer Review)
+                            </a>
+                        </div>
+                        <p class="price">
+                            $140.00 <del>$270.00</del>
+                        </p>
+                        <p class="text">Quickly productivate holistic systems after 24/365 e-commerce. Continually synthesize superior catalysts for change via high standards in leadership skills. Collaboratively evisculate distributed functionalities rather than timely methods of empowerment.</p>
+                        <table class="variations">
+                            <tbody>
+                                <tr>
+                                    <th class="label">
+                                        <label for="size">Size:</label>
+                                    </th>
+                                    <td class="value">
+                                        <select id="size" class="" name="attribute_size" data-attribute_name="attribute_size" data-show_option_none="yes">
+                                            <option value="">Select Size</option>
+                                            <option value="44" class="attached enabled">44</option>
+                                            <option value="42" class="attached enabled">42</option>
+                                            <option value="40" class="attached enabled">40</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="label">
+                                        <label for="pa_color">Color:</label>
+                                    </th>
+                                    <td class="value">
+                                        <select id="pa_color" class="" name="attribute_pa_color" data-attribute_name="attribute_pa_color" data-show_option_none="yes">
+                                            <option value="">Select Color</option>
+                                            <option value="orange" class="attached enabled">Orange</option>
+                                            <option value="black" class="attached enabled">Black</option>
+                                            <option value="yellow" class="attached enabled">Yellow</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="actions">
+                            <div class="quantity">
+                                <label class="screen-reader-text"></label>
+                                <input type="number" class="qty-input" value="1" min="1" max="99">
+                            </div>
+                            <div class="cart">
+                            <a href="#" class="as-btn mask-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add To Cart
+                            </a>
+                            <a href="#" class="iconBtn">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a href="#" class="iconBtn">
+                                <i class="fa-solid fa-signal"></i>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="row gy-3 justify-content-between">
+                            <div class="col-auto">
+                                <div class="product_meta">
+                                    <span>
+                                        SKU: <span class="sku">Jacket</span>
+                                    </span>
+                                    <span>
+                                        Tags: <a href="#">New</a>
+                                        <a href="#">Woman</a>
+                                    </span>
+                                    <span>
+                                        Category: <a href="#">Dress</a>
+                                        <a href="#">T-Shirt</a>
+                                        <a href="#">Mini Scut</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <ul class="social-links">
+                                    <li>
+                                        <a target="_blank" href="https://facebook.com/">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://instagram.com/">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://pinterest.com/">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <ul class="nav product-tab-style1" id="productTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Product Description</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="reviews-tab" data-bs-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Customer Review(3)</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="additional-tab" data-bs-toggle="tab" href="#additional" role="tab" aria-controls="additional" aria-selected="false">Additional Information</a>
+                </li>
+            </ul>
+            <div class="tab-content mb-30" id="productTabContent">
+                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                    <p>Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.</p>
+                    <p class="mb-n2">Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.</p>
+                </div>
+                <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                    <div class="as-comments-wrap">
+                        <ul class="comment-list">
+                            <li class="review as-comment-item">
+                                <div class="as-post-comment">
+                                    <div class="comment-avater">
+                                        <img src="Images4/comment-author-1.jpg" alt="Comment Author">
+                                    </div>
+                                    <div class="comment-content">
+                                        <span id="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span><br>
+                                        <h4 class="name h4">Mark Jack</h4>
+                                        <span class="commented-on">22 April, 2020</span>
+                                        <p class="text">Progressively procrastinate mission-critical action items before team building ROI. Interactively provide access to cross functional quality vectors for client-centric catalysts for change.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="review as-comment-item">
+                                <div class="as-post-comment">
+                                    <div class="comment-avater">
+                                        <img src="Images4/comment-author-2.jpg" alt="Comment Author">
+                                    </div>
+                                    <div class="comment-content">
+                                        <span id="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span><br>
+                                        <h4 class="name h4">John Deo</h4>
+                                        <span class="commented-on">26 April, 2020</span>
+                                        <p class="text">Competently provide access to fully researched methods of empowerment without sticky models. Credibly morph front-end niche markets whereas 2.0 users. Enthusiastically seize team.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="review as-comment-item">
+                                <div class="as-post-comment">
+                                    <div class="comment-avater">
+                                        <img src="Images4/comment-author-1.jpg" alt="Comment Author">
+                                    </div>
+                                    <div class="comment-content">
+                                        <span id="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span><br>
+                                        <h4 class="name h4">Tara sing</h4>
+                                        <span class="commented-on">26 April, 2020</span>
+                                        <p class="text">Competently provide access to fully researched methods of empowerment without sticky models. Credibly morph front-end niche markets whereas 2.0 users. Enthusiastically seize team.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="as-comment-form">
+                        <div class="form-title">
+                            <h3 class="blog-inner-title h3">Add a review</h3>
+                        </div>
+                        <div class="row">
+                            <div class="form-group rating-select d-flex align-items-center">
+                                <label>Your Rating</label>
+                                <p class="stars">
+                                    <span id="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" placeholder="Your Name*" class="form-control style2">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" placeholder="Your Email*" class="form-control style2">
+                            </div>
+                            <div class="col-12 form-group">
+                                <textarea placeholder="Write a Message*" class="form-control style2"></textarea>
+                            </div>
+                            <div class="col-12 form-group mb-2">
+                                <input id="reviewcheck" name="reviewcheck" type="checkbox">
+                                <label for="reviewcheck">
+                                    Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-12 form-group mb-0">
+                                <button class="as-btn style4 mask-btn">Post Review</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
+                    <div class="additional-info">
+                        <table>
+                            <tr>
+                                <th>Color</th>
+                                <td>Yellow, Black, Red</td>
+                            </tr>
+                            <tr>
+                                <th>Size</th>
+                                <td>40, 42, 44</td>
+                            </tr>
+                            <tr>
+                                <th>Material</th>
+                                <td>Leather</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="space-extra-top">
+                <div class="container">
+                    <h2 class="products sec-title text-center">Releted Products</h2>
+                    <div class="slider row arrow-style4 as-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_1.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">-45%</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Spaghetti Hoodie</a>
+                                    </h3>
+                                    <span class="price">
+                                        $180.85<del>$350.99</del>
+                                    </span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_2.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">New</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Crew Neck Cotton</a>
+                                    </h3>
+                                    <span class="price">$190.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_3.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">Sale</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Spaghetti Strap</a>
+                                    </h3>
+                                    <span class="price">$160.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_4.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Pink Neck Frog</a>
+                                    </h3>
+                                    <span class="price">$170.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_5.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">New</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">T-shirt Blouse Sleeve</a>
+                                    </h3>
+                                    <span class="price">$120.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_6.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Crew Neck T-shirt</a>
+                                    </h3>
+                                    <span class="price">$100.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_7.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">Sale</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Blouse Jacket</a>
+                                    </h3>
+                                    <span class="price">$120.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_8.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Hoodie Sweater</a>
+                                    </h3>
+                                    <span class="price">$100.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_9.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">New</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Hoodie Outerwear</a>
+                                    </h3>
+                                    <span class="price">$120.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_10.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Flight jacket</a>
+                                    </h3>
+                                    <span class="price">$100.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_11.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tag-style3">Sale</div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Plus-size Dress</a>
+                                    </h3>
+                                    <span class="price">$120.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <div class="as-product product_layout5">
+                                <div class="product-img">
+                                    <img src="Images4/product_1_12.jpg" alt="Featured">
+                                    <div class="actions">
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Cart">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Wishlist">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn popup-content" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a href="#" class="icon-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                        <a href="#">Pajamas Nightwear</a>
+                                    </h3>
+                                    <span class="price">$100.85</span>
+                                    <span class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section Endss -->
+
+
+    <!-- Footer Section Starts -->      
+
+                <footer>
+                    <div class="container">
+                        <div class="middle_footer">
+                            <div class="row">
+                               <div class="socialMedia col-lg-3">
+                                <ul>
+                                    <li class="fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                </ul>
+                               </div>
+                              <div class="secondLogo col-lg-6">
+                                <img src="./images4/Logo.png">
+                                <img class="ytor" src="./images4/ytor.png">
+                              </div>
+                              <div class="bank-cards col-lg-3">
+                                <img src="./images4/cards.png">
+                              </div>
+                              </div>
+                        </div>
+                    
+                     <hr class="horizontalLine">   
+                     <div id="informations">
+                        <div class="row">
+                        <div class="myAccount col-lg-2"> 
+                            <h2>My Account</h2>
+                            <ul>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">My Account</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">View Cart</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Wishlist</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Compare</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">New Products</a></li>
+                            </ul>
+                        </div>
+            
+                        <div class="support col-lg-2">
+                            <h2>Support</h2>
+                            <ul>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Help</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Contact Us</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Feedback</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Customer Service</a></li>
+                                <li><span><i class="fa-solid fa-greater-than"></i></span><a href="#">Store Location</a></li>
+                            </ul>
+                        </div>
+                 
+                        <div class="openTime col-lg-2">
+                            <h2>Opening Time</h2>
+                            <div class="open">
+                            <div class="day col-lg-6">
+                                <ul>
+                               <li>Mon - Tue: </li>
+                               <li>Wed: </li>
+                               <li>Fri: </li>
+                               <li>Fri: </li>
+                               <li>Sun: </li>
+                            </ul>
+                            </div>
+                            <div class="time col-lg-6">
+                                <ul>
+                                <li>8AM - 10PM</li>
+                                <li>8AM - 7PM</li>
+                                <li>8AM - 12PM</li>
+                                <li>8AM - 12PM</li>
+                                <li>Closed</li>
+                            </ul>
+                        </div>
+                            </div>
+                     </div>
+            
+            <div class="contact col-lg-3">
+                <h2>Contact Us</h2>
+                <div class="contact_cnt">
+                <div class="icon col-lg-1">
+                <ul>
+                <li><span><i class="fa-solid fa-location-dot"></i></span></li>
+                <li><span><i class="fa-solid fa-phone"></i></span></li>
+                <li><span><i class="fa-solid fa-envelope"></i></span></li>
+                </ul>
+                </div>
+                <div class="paragraph" col-lg-2>
+                    <ul>
+                        <li><address><p>830 Broad way, New York, NY 10003,<br>
+                            United States</p></address></li>
+                           <li><tel<p>+18008660286</p></tel></li> 
+                           <li> <mail><p>aetor.info@gmail.com</p></mail>
+                            <mail>info@aetor.com</mail></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+            <div class="newsletter col-lg-3">
+                <h2>News Letter</h2>
+                <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Enter Your Email" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn">search</button>
+                  </div>
+            
+                    </div>
+                        </div>
+                     </div>
+                    </div>
+                
+                </footer>
+            
+                <div class="lastDiv">
+                    <p>© 2022 All Rights Reserved <span> Aytor </span> By <span> Angfuzsoft.</span> </p>
+                </div>       
+        
+        
+        <!-- Latest News SECTION ENDS -->
+        
+        
+            <script src="./JS4/jquery.min.js"></script>
+            <script src="./JS4/bootstrap.bundle.min.js"></script>
+            <script src="./JS4/jquery.nice-number.js"></script>
+            <script src="./JS4/slick.min.js"></script>
+            <script src="./JS4/app.js"></script>
+        </body>
+        
+        </html

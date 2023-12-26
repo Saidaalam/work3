@@ -1,0 +1,210 @@
+@media (max-width: 767px) {
+  #banner .slide {
+    height: 500px;
+  }
+  #banner .slide h2 {
+      font-size: 35px;
+  }
+  #banner .slide p{
+    font-size: 13px;
+   }
+  #banner .bannerDots {
+    display: none !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+  #banner .slide {
+    height: 500px;
+  }
+  #banner .slide h2 {
+      font-size: 50px;
+  }
+ #banner .slide p{
+  font-size: 16px;
+ }
+
+  #banner .bannerDots {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .bg .text h2{
+      font-size: 26px;
+      margin-top: -20px;
+  }
+
+  .bg .text p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+}
+
+
+@media (max-width: 767px) {
+.category3{
+  margin-top: 20px;
+ }
+}
+
+
+/* Vedio Section */
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .video{
+    margin-bottom: 500px;
+    position: relative;
+    margin-left: -290px;
+    
+  }
+  .overlay{
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 992px){
+   .video{
+    width:50%;
+    top: 0;
+    position: absolute;
+    right: 0;
+  }
+}
+
+/* Vedio Section Ends */
+
+
+@media (max-width: 992px){
+  .video{
+  margin-top: 65px;
+  margin-bottom: 500px;
+ }
+ .overlay{
+  display: none;
+ }
+}
+
+
+@media  (min-width: 768px) and (max-width: 991px){
+  .news{
+    padding-bottom: 200px;
+  }
+  .latest_text{
+    display: flex;
+  }
+}
+
+
+@media (max-width: 992px){
+ .lgdiv{
+  background: none;
+ }
+ .lgdiv h2{
+  font-size: 22px;
+  margin-left: -70px;
+ }
+}
+
+
+@media (max-width: 767px){
+  .allProducts{
+    margin-left:-120px;
+  }
+ }
+
+ @media  (min-width: 768px) and (max-width: 991px){
+  .allProducts{
+    margin-left:-80px;
+  }
+ }
+
+@media (max-width: 767px){
+  #Deals .CountDown ul{
+    width: 300px !important;
+  }
+  .CountDown span{
+    font-size: 16px;
+
+  }
+  .CountDown li{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+ }
+
+
+/* Prefooter Starts */
+
+@media  (max-width: 575px){
+  .footerService .content{
+    border: none;
+  }
+
+  .prefooter{
+    margin-top: 450px;
+  }
+
+  }
+  
+  @media  (min-width: 575px) and (max-width: 991px){
+    .footerService:nth-child(even) .content{
+    border: none;
+  }
+  }
+  
+  /* Prefooter Ends */
+
+  /* Footer Starts */
+
+@media(max-width: 575px){
+  footer #informations{
+    flex-direction: column;
+    padding: 30px 30px;
+  }
+
+#informations ul{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#informations .contact{
+  padding-left: 0px;
+}
+
+.middle_footer .secondLogo img{
+margin-left: -115px;
+margin-top: -200px;
+}
+.middle_footer .bank-cards{
+  margin-top: -100px;
+  margin-left: -30px;
+}
+}
+
+@media(max-width: 991px){
+
+  #informations .contact{
+    padding-left: 0px;
+  }
+
+  footer .middle_footer{
+   line-height: 80px;
+  }
+  
+  .middle_footer .secondLogo img{
+    margin-top: -270px;
+    }
+    
+    .middle_footer .socialMedia{
+     margin-bottom: -380px;
+    }
+    
+    .middle_footer .bank-cards{
+      margin-top: -150px;
+    }
+
+}
+
+  /* Footer Ends */

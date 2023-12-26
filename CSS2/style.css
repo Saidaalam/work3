@@ -1,0 +1,825 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap");
+
+/** COMMON CSS STARTS HERE */
+:root {
+  --primaryFont: "Josefin Sans", sans-serif;
+  --secondaryFont: "Roboto", sans-serif;
+  --mainColor: #ff6f61;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+span,
+ol {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--primaryFont);
+}
+
+/** COMMON CSS ENDS HERE */
+
+/* HOME PAGE STARTS HERE */
+
+/* NAVBAR STARTS HERE */
+.sm_navbar .iconsGroup li,
+.myCustomNav .iconsGroup li {
+  display: inline-block;
+}
+
+.sm_navbar .iconsGroup li span,
+.sm_navbar .iconsGroup li a,
+.myCustomNav .iconsGroup li span,
+.myCustomNav .iconsGroup li a {
+  color: #151a32;
+  margin: 0 10px;
+  position: relative;
+  font-size: 24px;
+}
+.sm_navbar .iconsGroup li a span.cartNumber,
+.myCustomNav .iconsGroup li a span.cartNumber {
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: block;
+  text-align: center;
+  line-height: 17px;
+  position: absolute;
+  top: -5px;
+  right: -17px;
+  font-size: 14px;
+}
+
+.myCustomNav #navMenu ul li a {
+  padding: 37px 22px;
+  color: #11161e;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.myCustomNav #navMenu ul li:hover a {
+  color: var(--mainColor);
+}
+
+.sm_navbar .menu button {
+  border: none;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.sm_navbar .smMenu ul li a {
+  color: #11161e;
+  padding: 15px 10px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+.sm_navbar .smMenu ul li:last-child a {
+  border: none;
+}
+
+/* NAVBAR ENDS HERE */
+
+/* BANNER STARTS HERE */
+
+.bannar2{
+  background: rgba(0,0,0,0.7)url(bld.jpeg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+#banner .bannar2 {
+  height: 400px;
+  width: 100%;
+}
+
+#banner .bannar2 h2 {
+  color: white;
+  font-size: 48px;
+  margin: 16px 0;
+  text-align: center;
+  font-weight: 700;
+  line-height: 58px; 
+  transition-delay: 0.1s;
+}
+
+#banner  .bannar2 p {
+  color: white;
+  font-family: var(--secondaryFont);
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* SHOPSTARTS HERE */
+
+.shop{
+  margin-top: 150px;
+  display: inline-block;
+  width: 100%;
+}
+.bg{
+  position: relative;
+}
+.decoration {
+   background-size: cover;
+   margin-left: -10%;
+   margin-top: 30px;
+   position: absolute;
+   width: 708px;
+   height: 506px;
+ }
+.makeup {
+  width: 1208px;
+  height: 546px;
+  padding-left: 94px;
+}
+.text{
+  color: black !important;
+  margin-left: 58%;
+  margin-top: -38%;
+}
+.text h2{
+ font-size: 36px;
+ font-family: var(--primaryFont);
+ font-weight: 700;
+ margin-top: 40px;
+}
+.text p{
+ font-size: 16px;
+ font-family: var(--secondaryFont);
+ line-height: 32px;
+ padding-top: 10px;
+}
+.text span{
+  padding-right: 10px;
+}
+
+hr{
+  width: 447px;
+  margin-top: 20px;
+}
+.text a{
+  padding-top: 12px;
+ color: white;
+ font-size: 18px;
+ font-family: var(--primaryFont);
+ font-weight: 600;
+ line-height: 30px;
+ background-color: var(--mainColor);
+ margin-top: 29px;
+ color: var(--Comon-Colot, #fff);
+ text-align: center;
+ padding: 13px 37px;
+ display: inline-block;
+ margin-bottom: 50px;
+}
+
+#shop .slide a span{
+  color: white;
+  margin-left: 10px;
+  line-height: 44px;
+}
+/* SHOP ENDS HERE */
+
+
+/* CounterUp STARTS HERE */
+
+.counterup{
+  margin-top: 150px;
+}
+
+.counter .icon{ 
+  font-size: 35px; 
+  color: #151A32;
+  
+}
+.counter .overlay{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-left: 50px;
+  line-height: 100px;
+  border-radius: 50%;
+  background-color: #f3dedc;
+  margin-bottom: 20px;
+}
+
+.counter_cnt h2{
+  display: inline-block;
+  color: var(--mainColor);
+  font-family: var(--primaryFont);
+  width: 150px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+ margin-left: 55px;
+}
+
+.counter_cnt .k{
+  color: var(--mainColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-left: -78px;
+}
+
+.counter_cnt p{
+  color: #444;
+  text-align: center;
+  font-family: var(--secondaryFont);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* CounterUp ENDS HERE */
+
+/* VIDEO STARTS HERE */
+#special_video {
+  min-height: 517px;
+  margin-top: 150px;
+  background-color: #F1F3F4;
+}
+  .video img {
+   height: 510px;
+  }
+
+  .background{
+    display: flex;
+  }
+
+.video .overlay {
+   margin-top: -40%;
+   margin-left: 75%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  line-height: 60px;
+  color: var(--mainColor);
+  text-align: center;
+}
+
+.overlay span{
+  color: var(--mainColor);
+}
+
+.video .overlay::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: -1;
+  animation: easing 1s linear 0.2s infinite forwards;
+}
+.spoffer h2{
+color: #11161E;
+ font-family: var(--primaryFont);
+ font-size: 36px;
+ line-height: 46px;
+ font-weight: 700;
+ padding-top: 100px;
+}
+
+.spoffer p{
+color:  #11161E;
+ font-size: 16px;
+ font-family: var(--secondaryFont);
+ font-weight: 400;
+ line-height: 28px;
+ padding-top: 15px;
+}
+.spoffer .para2{
+  padding-bottom: 50px;
+}
+
+@keyframes easing {
+  0% {
+    transform: scale(1);
+  }
+  80% {
+    opacity: 0.15;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+/* VIDEO ENDS HERE */
+
+/* PreFOOTER STARTS HERE */
+
+.prefooter {
+  background-color: white;
+  padding: 45px 38px;
+  transform: translateY(-50%);
+  margin-top: 150px;
+  box-shadow: 0px 0px 50px rgba(159, 173, 245, 0.1)
+}
+
+.footerService .content{
+  border-right: 4px solid #F1F1F1; 
+}
+
+.content h4{
+  font-size: 20px;
+}
+
+.content p{
+  font-size: 16px;
+}
+.footerService:last-child .content{
+  border: none;
+}
+
+
+/* PreFOOTER Ends HERE */
+
+/* Leadership_Team Starts */
+
+#leader{
+  color: #11161E;
+  text-align: center;
+  font-size: 36px;
+  font-family: var(--primaryFont);
+  font-weight: 700;
+  line-height: 46px;
+  padding-bottom: 90px;
+ }
+ .leaderSlider{
+   display:flex;
+   margin-bottom: 100px;
+ }
+ .leaderSlide{
+  box-shadow:  0px 5px 30px 0px rgba(17, 22, 30, 0.08);
+ }
+ .leaderImg img{
+   width: 95%;
+margin-left: 5px;
+ }
+ .leaderContent {
+   text-align: center;
+   padding: 24px 0;
+ }
+ 
+ .leaderContent h2 {
+   color: var(--Paragraph-Color, #444);
+   font-size: 18px;
+   line-height: 26px;
+   font-weight: 700;
+ }
+ 
+ 
+ .leaderContent p{
+   color: var(--Text-Color, #11161E);
+ text-align: center;
+ font-size: 16px;
+ font-family: var(--primaryFont);
+ line-height: 28px;
+ }
+ .socialmedia li{
+  width: 20px;
+  height: 20px;
+   font-size: 16px;
+   text-align: center;
+   display: inline-block;
+   background-color: white;
+   color: #444444;
+}
+
+ .socialmedia li a{
+  color: #444444;
+  display: inline-block;
+}
+
+.socialmedia li:hover a{
+  color: var(--mainColor);
+}
+
+
+   /* Leadership_Team Ends */
+
+   .lastpic{
+    margin-top: 20px;
+    height: 180px;
+    border-radius: 50%;
+  
+   }
+
+   /* Instragram Section Starts */
+
+   #instra h2{
+    text-align: center;
+    color: #11161E;
+    font-size: 36px;
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 50px;
+   }
+   
+   #latest{
+     display: flex;
+   }
+   
+   .late{
+     margin-top: 80px;
+   }
+
+   .late img{
+    width: 95%;
+    padding-left: 5px;
+   }
+   
+   #latest .bannerDots{
+     position: absolute;
+     bottom: -80px;
+     left: 50%;
+     text-align: center;
+     transform: translateX(-50%);
+   }
+   
+   #latest .bannerDots li {
+     display: inline-block;
+   }
+   
+   #latest .bannerDots li button {
+     border: none;
+     color: transparent;
+     width: 10px;
+     height: 6px;
+     border-radius: 5px;
+     background-color: #BDBDBD;
+     margin-right: 5px;
+     transition: 0.3s;
+   }
+   
+   
+   #latest .bannerDots li.slick-active button{
+     width: 28px;
+     background-color:var(--mainColor);
+   }
+
+.late{
+  position: relative;
+}
+
+   .late img{
+    width: 95%;
+   }
+
+   .late .overlay{
+    width: 95%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+   }
+
+   .overlay:hover{
+    opacity: 1;
+   }
+
+   .overlay a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+   }
+
+   .late:hover .overlay{
+    opacity: 0.8;
+    color: var(--mainColor);
+   }
+
+  /* Instragram Section Endss */ 
+
+  /* Background STARTS HERE */
+
+  #social_img .photo{
+    margin-left: 70px;
+    position: absolute; 
+}
+
+.center img{
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 0;
+}
+
+.center .lastpic{
+  padding-top: 60px;
+}
+
+.center p{
+ color: #444444;
+ font-size: 16px;
+ font-family: var(--secondaryFont);
+ line-height: 28px;
+ margin-top: -60px;
+}
+
+.center a{
+  color: var(--mainColor);
+   line-height: 48px;
+}
+
+  .center{
+    margin: 50px 0;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+ 
+  #Shape .bannerDots{
+    position: absolute;
+   bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #Shape .bannerDots li {
+    display: inline-block;
+  }
+  
+  #Shape .bannerDots li button {
+    border: none;
+    color: transparent;
+    width: 10px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #BDBDBD;
+    margin-right: 5px;
+    transition: 0.3s;
+  }
+  
+  
+  #Shape .bannerDots li.slick-active button{
+    width: 28px;
+    background-color:var(--mainColor);
+  }
+
+
+   /* Background EndS HERE */
+
+/* FOOTER STARTS HERE */
+
+footer {
+  background-color: #11161e;
+  margin-top: 100px;
+  padding: 80px 0;
+}
+.socialMedia li{
+  width: 40px;
+   height: 40px; 
+   line-height: 40px;
+   font-size: 24px;
+   display: inline-block;
+   background-color: white;
+   color: #444444;
+   padding-left: 10px;
+   margin-right: 20px;
+}
+
+ .socialMedia li a{
+  color: #444444;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.socialMedia li:hover a{
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.secondLogo .ytor{
+  margin-left: -120px;
+  font-family: var(--primaryFont);
+}
+
+.horizontalLine{
+  color: #E0E0E0;
+  height: 1px;
+  margin-top: 70px;
+  width: 100%;
+}
+
+#informations{
+  display: flex;
+  margin-top: 60px;
+}
+
+.myAccount {
+ text-align: start;
+}
+
+.myAccount h2{
+  color: white;
+  line-height: 36px;
+  font-size: 24px;
+  font-family: var(--primaryFont);
+  text-align: start;
+  padding: 22px 0;
+}
+
+.myAccount a{
+  color: white;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.myAccount span{
+ margin-right: 10px;
+ font-size: 12px;
+ color: white;
+}
+
+.myAccount li:hover span,
+.myAccount li:hover a{
+  color: var(--mainColor);
+}
+
+.support {
+  text-align: start;
+ }
+ 
+ .support h2{
+   color: white;
+   line-height: 36px;
+   font-size: 24px;
+   font-family: var(--primaryFont);
+   text-align: start;
+   padding: 22px 0;
+ }
+ 
+ .support a{
+   color: white;
+   display: inline-block;
+   padding-top: 5px;
+ }
+ 
+ .support span{
+  margin-right: 10px;
+  font-size: 12px;
+  color: white;
+ }
+ 
+ .support li:hover span,
+ .support li:hover a{
+   color: var(--mainColor);
+ }
+
+ .openTime {
+  text-align: start;
+ }
+ .open{
+  display: flex;
+ }
+ 
+ .openTime h2{
+   color: white;
+   line-height: 36px;
+   font-size: 24px;
+   font-family: var(--primaryFont);
+   text-align: start;
+   padding: 22px 0;
+ }
+
+ .openTime li{
+  color: white;
+   line-height: 30px;
+   font-size: 16px;
+   font-family: var(--secondaryFont);
+ }
+ .openTime .day{
+  line-height: 30px;
+  font-size: 16px;
+  font-family: var(--secondaryFont);
+ }
+ .openTime  .time{
+  line-height: 30px;
+  font-size: 16px;
+  font-family: var(--secondaryFont);
+ }
+
+ .contact h2{
+  color: white;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: var(--primaryFont);
+  text-align: start;
+  padding: 22px 0;
+}
+
+ .contact {
+  color: white;
+font-size: 16px;
+font-family: var(--secondaryFont);
+ text-align: start;
+ padding-left: 25px;
+}
+
+.contact_cnt{
+  display: flex;
+}
+
+.contact span{
+  color: var(--mainColor);
+  line-height: 34px;
+  display: inline-block;
+  padding:12px 0;
+}
+
+.contact .paragraph{
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+.newsletter p{
+  color: white;
+  line-height: 28px;
+  font-size: 16px;
+  font-family: var(--secondaryFont);
+  text-align: start;
+}
+
+.newsletter h2{
+  color: white;
+  line-height: 36px;
+  font-size: 24px;
+  font-family: var(--primaryFont);
+  text-align: start;
+  padding: 22px 0;
+}
+
+.input-group{
+  margin-top: 30px;
+}
+
+.btn{
+  background-color: var(--mainColor);
+  height: 50px;
+  font-size: 18px;
+  font-family: var(--primaryFont);
+  font-weight: 600;
+  display: inline-block;
+  color: white;
+}
+
+.lastDiv{
+  width: 100%;
+  height: 100%;
+   background: #444444;
+   text-align: center;
+  line-height: 70px;
+  color: white;
+  font-size: 16px;
+  font-family: var(--secondaryFont);
+}
+
+.lastDiv span{
+  color: var(--mainColor);
+  font-family: var(--secondaryFont);
+  font-size: 16px;
+}
+
+
+/* FOOTER ENDS HERE */
